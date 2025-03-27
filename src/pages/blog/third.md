@@ -1,6 +1,6 @@
 ---
 layout: '../../layouts/Layout.astro'
-title: 'First blog post'
+title: 'Third blog post'
 ---
 
 Awesome!
