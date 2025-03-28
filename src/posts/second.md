@@ -1,5 +1,6 @@
 ---
 title: 'Second blog post'
+date: 2025-02-15
 ---
 
 Awesome!
