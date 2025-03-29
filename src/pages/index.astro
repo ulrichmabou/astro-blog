@@ -4,11 +4,11 @@ import Layout from '@layouts/Layout.astro'
 
 let posts = await getCollection('posts')
 
-posts = posts.sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()).slice(0, 4)
+posts = posts.sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()).slice(0, 3)
 ---
 
-<Layout>
-	<h1>Astro</h1>
+<Layout title='Homepage'>
+	<h1>Homepage</h1>
 	<p class="my-4">Blog posts:</p>
 	<ul class="list-inside list-disc">
 		{
